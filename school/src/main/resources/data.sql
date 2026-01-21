@@ -1,0 +1,47 @@
+INSERT INTO student (name, email, age) VALUES
+                                           ('Aarav Sharma', 'aarav.sharma1@example.com', 20),
+                                           ('Vivaan Verma', 'vivaan.verma2@example.com', 21),
+                                           ('Aditya Singh', 'aditya.singh3@example.com', 22),
+                                           ('Vihaan Patel', 'vihaan.patel4@example.com', 19),
+                                           ('Arjun Mehta', 'arjun.mehta5@example.com', 23),
+                                           ('Sai Kumar', 'sai.kumar6@example.com', 20),
+                                           ('Krishna Iyer', 'krishna.iyer7@example.com', 21),
+                                           ('Rohan Gupta', 'rohan.gupta8@example.com', 22),
+                                           ('Ananya Mishra', 'ananya.mishra9@example.com', 19),
+                                           ('Priya Nair', 'priya.nair10@example.com', 20),
+                                           ('Neha Joshi', 'neha.joshi11@example.com', 21),
+                                           ('Pooja Kulkarni', 'pooja.kulkarni12@example.com', 22),
+                                           ('Sneha Chatterjee', 'sneha.chatterjee13@example.com', 23),
+                                           ('Isha Malhotra', 'isha.malhotra14@example.com', 20),
+                                           ('Ritika Saxena', 'ritika.saxena15@example.com', 21),
+                                           ('Aman Yadav', 'aman.yadav16@example.com', 22),
+                                           ('Kunal Bansal', 'kunal.bansal17@example.com', 23),
+                                           ('Mohit Agarwal', 'mohit.agarwal18@example.com', 20),
+                                           ('Nikhil Jain', 'nikhil.jain19@example.com', 21),
+                                           ('Saurabh Tiwari', 'saurabh.tiwari20@example.com', 22),
+                                           ('Rahul Pandey', 'rahul.pandey21@example.com', 23),
+                                           ('Shubham Dubey', 'shubham.dubey22@example.com', 19),
+                                           ('Ayush Kapoor', 'ayush.kapoor23@example.com', 20),
+                                           ('Varun Khanna', 'varun.khanna24@example.com', 21),
+                                           ('Manish Goyal', 'manish.goyal25@example.com', 22),
+                                           ('Deepak Rana', 'deepak.rana26@example.com', 23),
+                                           ('Pankaj Soni', 'pankaj.soni27@example.com', 20),
+                                           ('Ravi Thakur', 'ravi.thakur28@example.com', 21),
+                                           ('Siddharth Roy', 'siddharth.roy29@example.com', 22),
+                                           ('Akash Chauhan', 'akash.chauhan30@example.com', 23);
+
+INSERT INTO professor (name, email, age) VALUES
+                                           ('Dr. Rajesh Kumar', 'rajesh.kumar@college.edu', 45),
+                                           ('Prof. Anita Sharma', 'anita.sharma@college.edu', 42),
+                                           ('Dr. Suresh Verma', 'suresh.verma@college.edu', 50),
+                                           ('Prof. Meena Iyer', 'meena.iyer@college.edu', 38),
+                                           ('Dr. Amit Patel', 'amit.patel@college.edu', 47),
+                                           ('Prof. Neha Gupta', 'neha.gupta@college.edu', 40);
+
+INSERT INTO subject (title, credits) VALUES
+                                         ('Data Structures and Algorithms', 4),
+                                         ('Database Management Systems', 3),
+                                         ('Operating Systems', 4),
+                                         ('Computer Networks', 3),
+                                         ('Software Engineering', 3),
+                                         ('Artificial Intelligence', 4);
