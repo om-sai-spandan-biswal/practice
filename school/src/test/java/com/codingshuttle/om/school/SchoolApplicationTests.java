@@ -15,10 +15,10 @@ class SchoolApplicationTests {
 
 	@Test
 	void contextLoads() {
-		String token = jwtService.generateToken(new User(10L,"om@email.com","pass")) ;
+		String token = jwtService.generateToken(new User(10L,"om@email.com","pass","om")) ;
 		System.out.println(token);
-		String email = jwtService.getUserEmailFromToken(token) ;
-		System.out.println(email);
+		Long id = jwtService.getUserIdFromToken(token) ;
+		System.out.println(id);
 	}
 
 }

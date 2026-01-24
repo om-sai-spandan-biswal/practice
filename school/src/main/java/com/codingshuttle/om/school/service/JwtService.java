@@ -33,12 +33,12 @@ public class JwtService {
                 .compact();
     }
 
-    public String getUserEmailFromToken(String token) {
+    public Long getUserIdFromToken(String token) {
         Claims claims = Jwts.parser()
                 .verifyWith(getSecretKey())
                 .build()
                 .parseSignedClaims(token)
                 .getPayload() ;
-        return claims.get("email",String.class) ;
+        return Long.valueOf(claims.getSubject());
     }
 }
