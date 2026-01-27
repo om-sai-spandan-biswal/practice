@@ -1,15 +1,15 @@
 package com.practice.om.blogApp.advice;
 
-import lombok.Builder;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 import java.time.LocalDateTime;
 
 @Data
-@Builder
 public class ApiResponse<T> {
     private T data ;
     private ApiError error ;
+    @JsonFormat(pattern = "ss:mm:hh DD-MM-YYYY")
     private LocalDateTime timeStamp ;
 
     public ApiResponse(){

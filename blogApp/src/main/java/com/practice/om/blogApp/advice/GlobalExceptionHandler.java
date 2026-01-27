@@ -13,12 +13,6 @@ import java.util.List;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    private final View error;
-
-    public GlobalExceptionHandler(View error) {
-        this.error = error;
-    }
-
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<ApiResponse<?>> resourceNotFoundExceptionHandler(ResourceNotFoundException exception) {
         ApiError error = ApiError.builder()
